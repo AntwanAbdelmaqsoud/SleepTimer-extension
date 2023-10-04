@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Sleep Timer",
+  "description": "Close tabs after a set period of time",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/assets/icon.png",
+    "48": "/assets/icon.png",
+    "128": "/assets/icon.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "./assets/icon.png"
+  },
+  "permissions": ["storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
