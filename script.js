@@ -50,7 +50,7 @@ minus.addEventListener("click", () => {
 
 m5.addEventListener("click", () => {
   if (!ClockIsRunning) {
-    seconds.innerText = "05";
+    minutes.innerText = "05";
   }
 });
 m10.addEventListener("click", () => {
